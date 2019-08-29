@@ -1,1 +1,1 @@
-An opinionated starter for using Gatsby v2 with React Context, tag-agnostic styled-components, page transitions and scroll events with IntersectionObserver.
+AWS Certified Solutions Architect, Progressive Web App Developer. Deep expertise in JS & CSS. Data and Voice infrastructure background; proficient with cloud & serverless.

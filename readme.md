@@ -37,6 +37,10 @@
 </p>
 
 <p align="center">
+  Build cmd: <code>aws s3 sync public/ s3://j4cks</code>.
+</p>
+
+<p align="center">
   An <em>opinionated</em> Gatsby v2 starter with React Context, styled-components, page transitions, scroll events with <code>IntersectionObserver</code> and a focus on accessibility and SEO. Made for state-of-the-art marketing sites.
 </p>
 

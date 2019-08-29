@@ -1,16 +1,16 @@
 const path = require('path');
 
 module.exports = {
-  siteTitle: `Gatsby Universal`,
-  siteTitleShort: `GatsbyU`,
-  siteDescription: `An opinionated starter for Gatsby.`,
-  siteUrl: `https://gu.fabianschultz.com`,
-  themeColor: `#000`,
-  backgroundColor: `#fff`,
+  siteTitle: `Alexander Jacks`,
+  siteTitleShort: `J4cks`,
+  siteDescription: `Cloud architecting & progressive apping.`,
+  siteUrl: `https://j4cks.com`,
+  themeColor: `#00f`,
+  backgroundColor: `#040`,
   pathPrefix: null,
   logo: path.resolve(__dirname, 'src/images/icon.png'),
   social: {
-    twitter: `gatsbyjs`,
+    twitter: `archdukejacks`,
     fbAppId: `966242223397117`,
   },
 };
