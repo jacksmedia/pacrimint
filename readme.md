@@ -37,10 +37,6 @@
 </p>
 
 <p align="center">
-  Build cmd: <code>aws s3 sync public/ s3://j4cks</code>.
-</p>
-
-<p align="center">
   An <em>opinionated</em> Gatsby v2 starter with React Context, styled-components, page transitions, scroll events with <code>IntersectionObserver</code> and a focus on accessibility and SEO. Made for state-of-the-art marketing sites.
 </p>
 
@@ -108,6 +104,9 @@ yarn format
 
 # To generate favicons (included in `build`)
 yarn build:favicons
+
+# To publish to AWS static bucket
+yarn build && aws s3 sync public/ s3://j4cks
 ```
 
 ## Configuration
@@ -116,16 +115,16 @@ Find the site-wide configuration in `site-config.js`.
 
 ```js
 module.exports = {
-  siteTitle: `Gatsby Universal`,
-  siteTitleShort: `GatsbyU`,
-  siteDescription: `An opinionated starter for Gatsby.`,
-  siteUrl: `https://gu.fabianschultz.com`,
-  themeColor: `#000`,
-  backgroundColor: `#fff`,
+  siteTitle: `Alexander Jacks`,
+  siteTitleShort: `J4cks`,
+  siteDescription: `Cloud Architect & Serverless Dev`,
+  siteUrl: `https://j4cks.com`,
+  themeColor: `#00f`,
+  backgroundColor: `#050`,
   pathPrefix: null,
   logo: path.resolve(__dirname, 'src/images/icon.png'),
   social: {
-    twitter: `gatsbyjs`,
+    twitter: `archdukejacks`,
     fbAppId: `966242223397117`,
   },
 };
@@ -163,6 +162,8 @@ module.exports = {
     └── favicons.js # Generates favicons and manifest using one png only.
 ```
 
-## Author
+## Adapted by Alexander Jacks
+
+## Starter Author
 
 * Fabian Schultz ([@fschultz_](https://twitter.com/fschultz_)) - [Stink Studios](https://stinkstudios.com)

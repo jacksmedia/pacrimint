@@ -26,7 +26,22 @@ const Index = ({ data }) => (
     </Box>
     <Gallery items={data.homeJson.gallery} />
     <div style={{ height: '50vh' }} />
-    <IOExample />
+    <IOExample
+      title='dailypricer.sh'
+      text='AppSync/Dynamo for queries/data'
+    />
+    <IOExample
+      title='top100crypto.info'
+      text='Lambda ƒ to foil CORS, R53/S3/Cloudfront static site hosting'
+    />
+    <IOExample
+      title='stardewdex.com'
+      text='R53/S3/Cloudfront static site hosting'
+    />
+    <IOExample
+      title='FightTheBan.org'
+      text='S3 image hosting, Route53 DNS'
+    />
   </Layout>
 );
 
