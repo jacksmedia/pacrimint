@@ -28,7 +28,7 @@ const Index = ({ data }) => (
     <div style={{ height: '50vh' }} />
     <IOExample
       title='dailypricer.sh'
-      text='AppSync/Dynamo for queries/data'
+      text='AppSync/Dynamo for queries/data, Cognito auth'
     />
     <IOExample
       title='top100crypto.info'

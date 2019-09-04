@@ -1,0 +1,19 @@
+{
+    "master": {
+        "awscloudformation": {
+            "AuthRoleName": "j4cks-consulting-master-20190904133933-authRole",
+            "UnauthRoleArn": "arn:aws:iam::447075351966:role/j4cks-consulting-master-20190904133933-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::447075351966:role/j4cks-consulting-master-20190904133933-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "j4cks-consulting-master-20190904133933-deployment",
+            "UnauthRoleName": "j4cks-consulting-master-20190904133933-unauthRole",
+            "StackName": "j4cks-consulting-master-20190904133933",
+            "StackId": "arn:aws:cloudformation:us-east-1:447075351966:stack/j4cks-consulting-master-20190904133933/1ad4b1a0-cf54-11e9-9df0-0e23fbf2c85e"
+        },
+        "categories": {
+            "auth": {
+                "j4cksconsultingd5fdffc7": {}
+            }
+        }
+    }
+}

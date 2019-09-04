@@ -1,0 +1,9 @@
+{
+	"auth": {
+		"j4cksconsultingd5fdffc7": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}

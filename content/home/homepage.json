@@ -2,18 +2,18 @@
   "title": "Home",
   "content": "intro.md",
   "gallery": [{
-    "title": "React Context",
-    "copy": "For global styles.",
-    "image": "../images/gallery/react-context.jpg"
+    "title": "Progressive Web Apps",
+    "copy": "Bridging mobile and desktop UX",
+    "image": "../images/gallery/burnside-bridge.jpg"
   },
   {
-    "title": "Page Transitions",
-    "copy": "Component-based for easy usage.",
-    "image": "../images/gallery/page-transitions.jpg"
+    "title": "Cloud-based Software",
+    "copy": "Web-scale performance that bills precisely",
+    "image": "../images/gallery/two-and-a-halfth.jpg"
   },
   {
-    "title": "Intersection Observer",
-    "copy": "Including a polyfill for Safari.",
-    "image": "../images/gallery/intersection-observer.jpg"
+    "title": "Serverless Architecting",
+    "copy": "Rapid and modern application development",
+    "image": "../images/gallery/washington-park.jpg"
   }]
 }

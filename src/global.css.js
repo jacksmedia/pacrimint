@@ -38,7 +38,6 @@ export default createGlobalStyle`
     line-height: 1;
     font-size: 1.6rem;
     color: #000;
-    background-image: linear-gradient(to top, #030, #9cf, #fff);
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
