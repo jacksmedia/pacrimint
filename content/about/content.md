@@ -5,10 +5,10 @@ Resume headliner:
 ------
 
 # Some technologies I've worked with:
-- AWS, Cloud9, Azure, Docker, Ubuntu, WSL, software emulators
-- GatsbyJS, React, ES6, Babel, Webpack, Angular, Vue, React Native
-- Github, Markdown, HTML, CSS3, Sass, styled-components, Bootstrap
-- VoIP, multiplexing, DoD cryptographic assets
+- ⛅️ AWS, Cloud9, Azure, Docker, Ubuntu, WSL, software emulators
+- 🛠 GatsbyJS, React, ES6, Babel, Webpack, Angular, Vue, React Native
+- 🖼 Github, Markdown, HTML, CSS3, Sass, styled-components, Bootstrap
+- 📡 VoIP, multiplexing, DoD cryptographic assets
 
 ------
 

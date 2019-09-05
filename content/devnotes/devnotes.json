@@ -1,7 +1,7 @@
 {
   "title": "Devnotes",
   "content": "content.md",
-  "gallery": [{
+  "notes": [{
     "title": "Progressive Web Apps",
     "copy": "Bridging mobile and desktop with responsive UX",
     "image": "../images/gallery/burnside-bridge.jpg"
