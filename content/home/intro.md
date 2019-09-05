@@ -1,1 +1,1 @@
-Hello and welcome to Jacks Consulting. Please find some work and code samples strewn about! I hope you like color gradients.
+Hello and welcome to Jacks Consulting. We specialize in static websites and serverless apps that scale seamlessly and save you money.

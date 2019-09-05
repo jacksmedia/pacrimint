@@ -3,11 +3,11 @@
   "content": "intro.md",
   "gallery": [{
     "title": "Progressive Web Apps",
-    "copy": "Bridging mobile and desktop UX",
+    "copy": "Bridging mobile and desktop with responsive UX",
     "image": "../images/gallery/burnside-bridge.jpg"
   },
   {
-    "title": "Cloud-based Software",
+    "title": "Managed Cloud Services",
     "copy": "Web-scale performance that bills precisely",
     "image": "../images/gallery/two-and-a-halfth.jpg"
   },

@@ -11,7 +11,7 @@ import { withAuthenticator } from 'aws-amplify-react';
 Amplify.configure(aws_exports);
 
 
-const Login =({ data })=>  (
+const Login = ({ data }) =>  (
     <Layout>
         <Box>
             <Title>Thanks for logging in!</Title>
