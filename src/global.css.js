@@ -90,4 +90,7 @@ export default createGlobalStyle`
   p {
     margin-bottom: 2rem;
   }
+  .dollarbill {
+    font-family: 'Asset', cursive;
+  }
 `;

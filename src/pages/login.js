@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Layout from 'components/layout';
+import Box from 'components/box';
 import Title from 'components/title';
 import { graphql } from 'gatsby';
 
@@ -12,9 +13,11 @@ Amplify.configure(aws_exports);
 
 const Login =({ data })=>  (
     <Layout>
-        <Title>Thanks for logging in!</Title>
-        <p>Stay tuned for more content. . .
-        </p>
+        <Box>
+            <Title>Thanks for logging in!</Title>
+            <p>Stay tuned for direct bill payment and other cool features!
+            </p>
+        </Box>
     </Layout>
 );
 

@@ -1,1 +1,1 @@
-AWS Certified Solutions Architect, Progressive Web App Developer. Deep expertise in JS & CSS. Data and Voice infrastructure background; proficient with cloud & serverless.
+Hello and welcome to Jacks Consulting. Please find some work and code samples strewn about! I hope you like color gradients.

@@ -10,10 +10,10 @@
     "mfaTypes": [
         "SMS Text Message"
     ],
-    "smsAuthenticationMessage": "Your authentication code is {####}",
-    "smsVerificationMessage": "Your verification code is {####}",
-    "emailVerificationSubject": "Your verification code",
-    "emailVerificationMessage": "Your verification code is {####}",
+    "smsAuthenticationMessage": "Your authentication code from j4cks.com is {####}",
+    "smsVerificationMessage": "Your verification code from j4cks.com is {####}",
+    "emailVerificationSubject": "Your verification code from j4cks.com",
+    "emailVerificationMessage": "Your verification code from j4cks.com is {####}",
     "defaultPasswordPolicy": false,
     "passwordPolicyMinLength": 8,
     "passwordPolicyCharacters": [],
