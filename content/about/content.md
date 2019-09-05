@@ -1,20 +1,24 @@
-
 Resume headliner:
 ## AWS Certified Solutions Architect, Progressive Web App Developer.
 ## Deep expertise in JS & CSS.
 ## Data and Voice infrastructure background; proficient with cloud & serverless.
 ------
 
-## Fun notes on my software development and cloud infrastructure journey are available on the homepage, below the portfolio projects-- here's [a direct link](https://j4cks.com/devnotes).
+# Some technologies I've worked with:
+- AWS, Cloud9, Azure, Docker, Ubuntu, WSL, software emulators
+- GatsbyJS, React, ES6, Babel, Webpack, Angular, Vue, React Native
+- Github, Markdown, HTML, CSS3, Sass, styled-components, Bootstrap
+- VoIP, multiplexing, DoD cryptographic assets
 
-```
-Heads up-- scripts or code get written like this <--
-```
-  in [the notes/tuts](https://j4cks.com/devnotes).
+------
 
-## Please reach out at the links below.
+
+## Please reach out at the links below. I'm looking for a fulltime opportunity in the Portland area or remotely.
+
+## I'm also interested in building a progressive web app for your small business or nonprofit, so drop me a line if you have a custom project, need a WordPress site migrated or rebuilt entirely into a modern web app, or &c...
+
 -[LinkedIn](https://linkedin.com/in/alexander-jacks/)
--[Gmail](alexanderthejacks@gmail.com)
+-[Gmail](mailto:alexanderthejacks@gmail.com)
 -[Instagram](https://www.instagram.com/a.d.jacks/)
 
 Find this project repository [on GitHub](https://github.com/alexanderjacks/j4cks_v1).

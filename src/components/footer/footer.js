@@ -25,7 +25,7 @@ const Footer = ({ title }) => (
   <AnimatedContainer>
     <Container>
       <Link to="/">
-        <Title as="h1" class="dollarbill">{title}</Title>
+        <Title as="h1" class="dollarbill">J. C., 2019</Title>
       </Link>
 
     </Container>

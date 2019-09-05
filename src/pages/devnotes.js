@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
 import Layout from 'components/layout';
 import Box from 'components/box';
 import Head from 'components/head';
+import Notebook from 'components/notebook';
+import { graphql } from 'gatsby';
 
 const Devnotes = ({ data }) => (
   <Layout>
@@ -14,6 +15,7 @@ const Devnotes = ({ data }) => (
           __html: data.devnotesJson.content.childMarkdownRemark.html,
         }}
       />
+      <Notebook items={data.devnotesJson.gallery} />
     </Box>
   </Layout>
 );

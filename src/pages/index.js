@@ -17,21 +17,33 @@ const Index = ({ data }) => (
     <Gallery items={data.homeJson.gallery} />
     <div style={{ height: '50vh' }} />
     <IOExample
-      title='dailypricer.sh'
-      text='AppSync/Dynamo for queries/data, Cognito auth'
+      title='j4cks.com'
+      text='S3 & CloudFront hosting, Cognito auth'
     />
-    <IOExample
-      title='top100crypto.info'
-      text='Lambda ƒ to foil CORS, R53/S3/Cloudfront static site hosting'
-    />
-    <IOExample
-      title='stardewdex.com'
-      text='R53/S3/Cloudfront static site hosting'
-    />
-    <IOExample
-      title='FightTheBan.org'
-      text='S3 image hosting, Route53 DNS'
-    />
+    <a href="https://www.fighttheban.org" target="_blank" rel="noopener noreferrer">
+      <IOExample
+        title='FightTheBan.org'
+        text='S3 image hosting, Route53 DNS'
+      />
+    </a>
+    <a href="http://minorityvets.org/" target="_blank" rel="noopener noreferrer">
+      <IOExample
+        title='MinorityVets.org'
+        text='Lightsail serverless WordPress migration'
+      />
+    </a>
+    <a href="https://jacksstorefrontdemo.azurewebsites.net/Home/Products" target="_blank" rel="noopener noreferrer">
+      <IOExample
+        title='🚧 OMMPOS Demo 🚧'
+        text='Demo of a storefront search, .NET with Azure hosting'
+      />
+    </a>
+    <a href="https://www.stardewdex.com" target="_blank" rel="noopener noreferrer">
+      <IOExample
+        title='🚧 stardewdex.com 🚧'
+        text='R53/S3/Cloudfront static site hosting'
+      />
+    </a>
   </Layout>
 );
 
