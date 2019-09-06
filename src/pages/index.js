@@ -10,12 +10,17 @@ import { graphql } from 'gatsby';
 const Index = ({ data }) => (
   <Layout>
     <Box>
-      <Title as="h2" size="large">
+      <Title as="h2" size="small">
         {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
       </Title>
     </Box>
     <Gallery items={data.homeJson.gallery} />
-    <div style={{ height: '50vh' }} />
+    <div style={{ height: '30vh' }} />
+    <Box>
+      <Title as="h2" size="small">
+        Work Examples
+      </Title>
+    </Box>
     <IOExample
       title='j4cks.com'
       text='S3 & CloudFront hosting, Cognito auth'
