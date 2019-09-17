@@ -1,0 +1,31 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+import IO from 'components/io';
+import Img from 'gatsby-image';
+import { Container, Title, Copy } from './project.css';
+
+const Project = ({ title, copy, image, href }) => (
+  <IO rootMargin="-50px">
+    {({ isVisible }) => (
+      <Container isVisible={isVisible}>
+        <Img fluid={image ? image.childImageSharp.fluid : {}} alt={title} />
+        <figcaption>
+          <Title>{title}</Title>
+          <Copy>{copy}</Copy>
+            <a href={href} target="_blank" rel="noopener noreferrer">
+              <p>{href}</p>
+            </a>
+        </figcaption>
+      </Container>
+    )}
+  </IO>
+);
+
+Project.propTypes = {
+  title: PropTypes.string.isRequired,
+  copy: PropTypes.string.isRequired,
+  image: PropTypes.object.isRequired,
+  href: PropTypes.string.isRequired,
+};
+
+export default Project;

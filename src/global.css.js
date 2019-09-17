@@ -67,7 +67,7 @@ export default createGlobalStyle`
   }
 
   a {
-    color: ${accent};
+    color: lime;
   }
 
   pre {
@@ -90,4 +90,51 @@ export default createGlobalStyle`
   p {
     margin-bottom: 2rem;
   }
+
+  .rowed {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  .rowed * {
+    margin: 0.15em;
+  }
+  .row-spacer {
+    justify-content: space-around;
+  }
+  .row-spillover {
+    flex-flow: row wrap;
+  }
+
+  .coled {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  .coled * {
+    margin: 0.0em;
+    padding: 0.15em;
+  }
+  .text-shadow-white {
+    text-shadow: 2px 2px 4px white, -2px -2px 4px white, -2px 2px 4px white, 2px -2px 4px white;
+  }
+
+  .no-repeat-bg {
+    background-size: cover;
+    resize: both;
+  }
+
+  .max400px {
+    max-width: 400px;
+    overflow-wrap: normal;
+  }
+
+  Container a {
+    color: red;
+  }
+
 `;

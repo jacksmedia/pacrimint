@@ -15,5 +15,35 @@
     "title": "Serverless Architecting",
     "copy": "Rapid and modern application development",
     "image": "../images/gallery/washington-park.jpg"
+  }],
+  "projects": [{
+    "title": "Jacks Consulting",
+    "copy": "Portfolio with user login via AWS Cognito",
+    "image": "../images/projectlist/j4cks.png",
+    "href" : "https://www.j4cks.com"
+  },
+  {
+    "title": "Fight The Ban",
+    "copy": "Custom progressive web app authored in GatsbyJS, hosted on Netlify CDN.",
+    "image": "../images/projectlist/fighttheban.png",
+    "href" : "https://www.fighttheban.org"
+  },
+  {
+    "title": "Minority Veterans of America",
+    "copy": "Migration of a nonprofit's WordPress to managed AWS hosting.",
+    "image": "../images/projectlist/mvalightsail.png",
+    "href" : "http://minorityvets.org/"
+  },
+  {
+    "title": "Storefront Demo for API",
+    "copy": "Inventory sorting and searching in jQuery for a client's dotNET project.",
+    "image": "../images/projectlist/ommposdemo.png",
+    "href" : "https://jacksstorefrontdemo.azurewebsites.net/Home/Products"
+  },
+  {
+    "title": "StardewDex",
+    "copy": "Info resource with noSQL data layer, serverless hosting on S3/Cloudfront",
+    "image": "../images/projectlist/stardewdex.png",
+    "href" : "https://www.stardewdex.com"
   }]
 }

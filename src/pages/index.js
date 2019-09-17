@@ -4,7 +4,7 @@ import Layout from 'components/layout';
 import Box from 'components/box';
 import Title from 'components/title';
 import Gallery from 'components/gallery';
-import IOExample from 'components/io-example';
+import ProjectList from 'components/projectlist';
 import { graphql } from 'gatsby';
 
 const Index = ({ data }) => (
@@ -21,34 +21,7 @@ const Index = ({ data }) => (
         Work Examples
       </Title>
     </Box>
-    <IOExample
-      title='j4cks.com'
-      text='S3 & CloudFront hosting, Cognito auth'
-    />
-    <a href="https://www.fighttheban.org" target="_blank" rel="noopener noreferrer">
-      <IOExample
-        title='FightTheBan.org'
-        text='S3 image hosting, Route53 DNS'
-      />
-    </a>
-    <a href="http://minorityvets.org/" target="_blank" rel="noopener noreferrer">
-      <IOExample
-        title='MinorityVets.org'
-        text='Lightsail serverless WordPress migration'
-      />
-    </a>
-    <a href="https://jacksstorefrontdemo.azurewebsites.net/Home/Products" target="_blank" rel="noopener noreferrer">
-      <IOExample
-        title='🚧 OMMPOS Demo 🚧'
-        text='Demo of a storefront search, .NET with Azure hosting'
-      />
-    </a>
-    <a href="https://www.stardewdex.com" target="_blank" rel="noopener noreferrer">
-      <IOExample
-        title='🚧 stardewdex.com 🚧'
-        text='R53/S3/Cloudfront static site hosting'
-      />
-    </a>
+    <ProjectList projects={data.homeJson.projects} />
   </Layout>
 );
 
@@ -78,6 +51,18 @@ export const query = graphql`
             }
           }
         }
+      }
+      projects {
+        title
+        copy
+        image {
+          childImageSharp {
+            fluid(maxHeight: 500, quality: 90) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
+        href
       }
     }
   }
