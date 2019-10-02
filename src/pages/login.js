@@ -14,11 +14,9 @@ Amplify.configure(aws_exports);
 const Login = ({ data }) =>  (
     <Layout>
         <Box>
-            <Title as="h1" size="large">Thanks for logging in!</Title>
-            <p>Please check out our new booking service!</p>
-            <a href="https://vcblikwbjltpkcewvr.10to8.com" data-uuid="987c636c-f963-489d-92b3-7a139cd02598">
-              <Title as="h1" size="small">Schedule A Consult</Title>
-            </a>
+            <Title>Thanks for logging in!</Title>
+            <p>Stay tuned for direct bill payment and other cool features!
+            </p>
         </Box>
     </Layout>
 );
