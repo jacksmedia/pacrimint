@@ -1,19 +1,23 @@
 {
   "title": "Home",
   "content": "intro.md",
+  "pwacontent": "pwas.md",
   "gallery": [{
     "title": "Progressive Web Apps",
     "copy": "Bridging mobile and desktop with responsive UX",
+    "route": "pwas",
     "image": "../images/gallery/burnside-bridge.jpg"
   },
   {
     "title": "Managed Cloud Services",
     "copy": "Web-scale performance that bills precisely",
+    "route": "aws",
     "image": "../images/gallery/two-and-a-halfth.jpg"
   },
   {
     "title": "Serverless Architecting",
     "copy": "Rapid and modern application development",
+    "route": "lessworkmoreplay",
     "image": "../images/gallery/washington-park.jpg"
   }],
   "projects": [{

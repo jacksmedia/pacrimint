@@ -5,7 +5,7 @@ module.exports = {
     ...siteConfig,
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
+    {resolve: `gatsby-plugin-react-helmet`},
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
     `gatsby-transformer-json`,

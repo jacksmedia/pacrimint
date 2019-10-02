@@ -106,7 +106,7 @@ yarn format
 yarn build:favicons
 
 # To publish to AWS static bucket
-yarn build && aws s3 sync public/ s3://j4cks
+yarn build && aws s3 sync public/ s3://your-bucket-name
 ```
 
 ## Configuration
@@ -162,8 +162,7 @@ module.exports = {
     └── favicons.js # Generates favicons and manifest using one png only.
 ```
 
-## Adapted by Alexander Jacks
+## Adapted by [Alexander Jacks](https://www.j4cks.com)
 
-## Starter Author
-
+## Created by
 * Fabian Schultz ([@fschultz_](https://twitter.com/fschultz_)) - [Stink Studios](https://stinkstudios.com)

@@ -7,35 +7,34 @@ import Gallery from 'components/gallery';
 import ProjectList from 'components/projectlist';
 import { graphql } from 'gatsby';
 
-const Index = ({ data }) => (
+const Pwas = ({ data }) => (
   <Layout>
-    <Box>
       <Title as="h2" size="small">
-        {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
+        {data.homeJson.pwacontent.childMarkdownRemark.rawMarkdownBody}
+      </Title>
+    <Box>
+      <Title as="h1" size="small">
+        Yes, they still live on your Home screen, as icons.
       </Title>
     </Box>
-    <Gallery items={data.homeJson.gallery} />
     <div style={{ height: '30vh' }} />
-    <Box>
-      <Title as="h2" size="small">
-        Work Examples
-      </Title>
-    </Box>
-    <ProjectList projects={data.homeJson.projects} />
+    {/*<Box>
+      <Gallery items={data.homeJson.gallery} />
+    </Box>*/}
   </Layout>
 );
 
-Index.propTypes = {
+Pwas.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export default Index;
+export default Pwas;
 
 export const query = graphql`
-  query HomepageQuery {
+  query PwasQuery {
     homeJson {
       title
-      content {
+      pwacontent {
         childMarkdownRemark {
           html
           rawMarkdownBody
@@ -52,18 +51,6 @@ export const query = graphql`
             }
           }
         }
-      }
-      projects {
-        title
-        copy
-        image {
-          childImageSharp {
-            fluid(maxHeight: 500, quality: 90) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
-          }
-        }
-        href
       }
     }
   }

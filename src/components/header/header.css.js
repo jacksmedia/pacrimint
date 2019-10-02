@@ -6,7 +6,7 @@ export const Container = styled.header`
     font-size: calc(15px + 3vmin);
     font-family: 'Asset', cursive;
     text-shadow: 1px 1px 2px black, 0 0 1em lime, 0 0 0.2em lime;
-    padding: 2vw;
+    padding: 2vw 2vw 2vw 4vw;
   }
   background-image: linear-gradient(to right, lightgreen, #9cf, lightgreen);
   max-width: 100vw;

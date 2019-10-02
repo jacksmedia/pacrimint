@@ -1,0 +1,1 @@
+PWAs act like apps, download like apps. Not just websites.

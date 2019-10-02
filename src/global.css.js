@@ -67,7 +67,7 @@ export default createGlobalStyle`
   }
 
   a {
-    color: lime;
+    color: red;
   }
 
   pre {
