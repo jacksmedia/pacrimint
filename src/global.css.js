@@ -137,4 +137,15 @@ export default createGlobalStyle`
     color: red;
   }
 
+  button {
+    padding: 1.8rem 3.5rem;
+    font-size: 22px;
+    max-width: 180px;
+    background: #036;
+    text-align: center;
+    color: lime;
+    border: black dotted 0px;
+    border-radius: 2.5rem;
+  }
+
 `;

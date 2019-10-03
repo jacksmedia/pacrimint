@@ -30,7 +30,7 @@ const Login = ({ data }) =>  (
 					<label>Message: <textarea name="message"></textarea></label>
 				</p>
 				<p>
-					<Button type="submit">Send Request</Button>
+					<button type="submit">Send Request</button>
 				</p>
 			</form>
         </Box>
