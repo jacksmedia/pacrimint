@@ -9,7 +9,6 @@ const Item = ({ title, copy, route, image }) => (
     <figcaption>
       <Title>{title}</Title>
       <Copy>{copy}</Copy>
-      <Copy>{route}</Copy>
     </figcaption>
   </figure>
 );

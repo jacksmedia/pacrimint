@@ -4,19 +4,19 @@
   "pwacontent": "pwas.md",
   "gallery": [{
     "title": "Progressive Web Apps",
-    "copy": "Bridging mobile and desktop with responsive UX",
+    "copy": "PWAs connect elements of both mobile and desktop user experience, making websites feel like apps. Your site can look great at any screen size, and can download to any device. We employ responsive design and other key PWA principles to make your brand truly cross-platform.",
     "route": "pwas",
     "image": "../images/gallery/burnside-bridge.jpg"
   },
   {
     "title": "Managed Cloud Services",
-    "copy": "Web-scale performance that bills precisely",
+    "copy": "Web-scale performance that bills precisely, leveraging the bleeding-edge cloud tech of AWS and Netlify. Running a WordPress instance on serverless AWS can translate into a big reduction in ops cost.",
     "route": "aws",
     "image": "../images/gallery/two-and-a-halfth.jpg"
   },
   {
     "title": "Serverless Architecting",
-    "copy": "Rapid and modern application development",
+    "copy": "Rapid and modern application development with less backend woes leaves more time to focus on the message.",
     "route": "lessworkmoreplay",
     "image": "../images/gallery/washington-park.jpg"
   }],

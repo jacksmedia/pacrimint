@@ -26,8 +26,8 @@ const Footer = ({ title }) => (
     <Container>
       <Link to="/">
         <Title as="h1" class="dollarbill">J. C., 2019</Title>
-      </Link>
-
+      </Link><br/>
+        <p>All content Alexander Jacks</p>
     </Container>
   </AnimatedContainer>
 );

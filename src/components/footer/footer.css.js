@@ -11,10 +11,10 @@ export const Container = styled.header`
   background-image: linear-gradient(to right, #9cf, lightgreen, #9cf);
   max-width: 100vw;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column nowrap;
   justify-content: space-around;
   align-items: center;
-  line-height: 6vh;
+  line-height: 3vh;
   a {
     color: blue;
     transition: color 0.4s ease;
