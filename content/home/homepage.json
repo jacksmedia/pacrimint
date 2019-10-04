@@ -16,11 +16,7 @@
   },
   {
     "title": "Serverless Architecting",
-<<<<<<< HEAD
-    "copy": "Rapid and modern application development with less backend woes leaves more time to focus on the message.",
-=======
     "copy": "Rapid and modern application development with less backend woes frees up time to hone and refine the message.",
->>>>>>> cognito
     "route": "lessworkmoreplay",
     "image": "../images/gallery/washington-park.jpg"
   }],
