@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import IO from 'components/io';
 import Img from 'gatsby-image';
-import { Container, Title, Copy } from './project.css';
+import { Container, Title, Copy, LinkEmphasis } from './project.css';
 
 const Project = ({ title, copy, image, href }) => (
   <IO rootMargin="-50px">
@@ -13,7 +13,7 @@ const Project = ({ title, copy, image, href }) => (
           <Title>{title}</Title>
           <Copy>{copy}</Copy>
             <a href={href} target="_blank" rel="noopener noreferrer">
-              <p>{href}</p>
+              <LinkEmphasis>Visit Site</LinkEmphasis>
             </a>
         </figcaption>
       </Container>
