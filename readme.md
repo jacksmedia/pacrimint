@@ -115,16 +115,16 @@ Find the site-wide configuration in `site-config.js`.
 
 ```js
 module.exports = {
-  siteTitle: `Alexander Jacks`,
+  siteTitle: `Jacks Consulting`,
   siteTitleShort: `J4cks`,
-  siteDescription: `Cloud Architect & Serverless Dev`,
+  siteDescription: `Serverless Websites & Cloud Architecting`,
   siteUrl: `https://j4cks.com`,
   themeColor: `#00f`,
   backgroundColor: `#050`,
   pathPrefix: null,
   logo: path.resolve(__dirname, 'src/images/icon.png'),
   social: {
-    twitter: `archdukejacks`,
+    twitter: `__j4cks__`,
     fbAppId: `966242223397117`,
   },
 };
