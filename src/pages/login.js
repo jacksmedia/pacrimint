@@ -17,12 +17,15 @@ const Login = ({ data }) =>  (
             <Title>Thanks for logging in!</Title>
             <p>This service is provided by AWS Cognito</p>
 
-            <a href="https://vcblikwbjltpkcewvr.10to8.com"
-            target="_blank"
-            rel="noopener noreferrer">
-              <Title>Click here to book an appointment</Title>
-            </a>
-            <p>This service is provided by 10to8</p>
+            <Title>I am currently not accepting new contracts. Thank you for your interest in working with me-- check back on the 1st of next month to see if I'm free!</Title>
+
+            // appointment booking suspended
+            // <a href="https://vcblikwbjltpkcewvr.10to8.com"
+            // target="_blank"
+            // rel="noopener noreferrer">
+            //   <Title>Click here to book an appointment</Title>
+            // </a>
+            // <p>This service is provided by 10to8</p>
         </Box>
     </Layout>
 );
