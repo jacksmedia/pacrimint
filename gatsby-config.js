@@ -29,11 +29,5 @@ module.exports = {
         },
       },
     },
-    {
-      resolve: `gatsby-plugin-google-adsense`,
-      options: {
-        publisherId: `ca-pub-1699472970547311`
-      },
-    },
   ],
 };
