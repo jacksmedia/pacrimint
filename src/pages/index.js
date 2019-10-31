@@ -7,8 +7,6 @@ import Gallery from 'components/gallery';
 import ProjectList from 'components/projectlist';
 import { graphql } from 'gatsby';
 
-import AdSense from 'react-adsense';
-
 const Index = ({ data }) => (
   <Layout>
     <Box>
@@ -17,12 +15,6 @@ const Index = ({ data }) => (
       </Title>
     </Box>
     <Gallery items={data.homeJson.gallery} />
-    <hr/>
-    <AdSense.Google
-        client='ca-pub-1699472970547311'
-        slot='6359860180'
-    />
-    <hr/>
     <div style={{ height: '30vh' }} />
     <Box>
       <Title as="h2" size="small">
