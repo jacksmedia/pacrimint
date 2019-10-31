@@ -15,10 +15,7 @@ const Index = ({ data }) => (
       </Title>
     </Box>
     <Gallery items={data.homeJson.gallery} />
-    <hr/>
-    <Title>Look, no Ads!
-    </Title>
-    <hr/>
+
     <div style={{ height: '30vh' }} />
     <Box>
       <Title as="h2" size="small">
