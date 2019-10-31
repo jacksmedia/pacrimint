@@ -11,13 +11,13 @@ import { withAuthenticator } from 'aws-amplify-react';
 Amplify.configure(aws_exports);
 
 
-const Login = ({ data }) =>  (
+const Login = ({ data }) => (
     <Layout>
         <Box>
             <Title>Thanks for logging in!</Title>
             <p>This service is provided by AWS Cognito</p>
 
-            <Title>I am currently not accepting new contracts. Thank you for your interest in working with me-- check back on the 1st of next month to see if I'm free!</Title>
+            <Title>I am currently not accepting new contracts. Thank you for your interest in working with me-- check back on the 1st of next month to see if I$apos;m free!</Title>
 
         </Box>
     </Layout>
