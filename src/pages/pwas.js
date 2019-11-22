@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 import Layout from 'components/layout';
 import Box from 'components/box';
 import Title from 'components/title';
-import Gallery from 'components/gallery';
-import ProjectList from 'components/projectlist';
 import { graphql } from 'gatsby';
 
 const Pwas = ({ data }) => (
