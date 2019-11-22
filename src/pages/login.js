@@ -5,17 +5,9 @@ import Box from 'components/box';
 import Title from 'components/title';
 import { graphql } from 'gatsby';
 
-import Amplify from 'aws-amplify';
-import aws_exports from '../aws-exports';
-import { withAuthenticator } from 'aws-amplify-react';
-Amplify.configure(aws_exports);
-
-
 const Login = ({ data }) => (
     <Layout>
         <Box>
-            <Title>Thanks for logging in!</Title>
-            <p>This service is provided by AWS Cognito</p>
 
             <Title>I am currently not accepting new contracts. Thank you for your interest in working with me-- check back on the 1st of next month to see if I$apos;m free!</Title>
 
@@ -27,7 +19,7 @@ Login.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export default withAuthenticator(Login, {includeGreetings: true});
+export default Login;
 
 export const query = graphql`
   query LoginpageQuery {
