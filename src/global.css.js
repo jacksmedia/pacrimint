@@ -148,4 +148,23 @@ export default createGlobalStyle`
     border-radius: 2.5rem;
   }
 
+  .classic-404-text {
+    animation: glitter infinite 2s linear;
+  }
+  @keyframes pulse {
+    50% {
+      transform: scale(1.8);
+    }
+  }
+  @keyframes glitter {
+    0% {
+        color: red;
+    }
+    50% {
+        color: blue;
+    }
+    100% {
+        color: red;
+    }
+  }
 `;

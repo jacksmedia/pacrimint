@@ -22,7 +22,7 @@
   }],
   "projects": [{
     "title": "Jacks Consulting",
-    "copy": "Portfolio with user login via AWS Cognito",
+    "copy": "Portfolio with animations, responsive layout. Serverless hosting on AWS.",
     "image": "../images/projectlist/j4cks.png",
     "href" : "https://www.j4cks.com"
   },
@@ -40,7 +40,7 @@
   },
   {
     "title": "Storefront Demo for API",
-    "copy": "Inventory sorting and searching in jQuery for a client's dotNET project.",
+    "copy": "jQuery + dotNET project, sorts and searches inventory of client's API; on Azure.",
     "image": "../images/projectlist/ommposdemo.png",
     "href" : "https://jacksstorefrontdemo.azurewebsites.net/Home/Products"
   },

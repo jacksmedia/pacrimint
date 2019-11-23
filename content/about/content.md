@@ -19,6 +19,6 @@ Resume headliner:
 
 -[LinkedIn](https://linkedin.com/in/alexander-jacks/)
 -[Gmail](mailto:alexanderthejacks@gmail.com)
--[Instagram](https://www.instagram.com/a.d.jacks/)
+-[Instagram](https://www.instagram.com/__j4cks__/)
 
 Find this project repository [on GitHub](https://github.com/alexanderjacks/j4cks_v1).
