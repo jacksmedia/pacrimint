@@ -1,15 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Title, Container } from './tech.css';
+import Img from 'gatsby-image';
+import { Title } from './tech.css';
 
 const Tech = ({ techs }) => (
-	<Container>
+	<div>
+		<Img fluid={techs ? techs.childImageSharp.fluid : {}} alt={techs} />
 		<Title>{techs}</Title>
-	</Container>
+	</div>
 );
 
 Tech.propTypes = {
-  techs: PropTypes.string.isRequired
+  techs: PropTypes.object.isRequired
 };
 
 export default Tech;

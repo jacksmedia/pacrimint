@@ -24,35 +24,35 @@
     "title": "Jacks Consulting",
     "copy": "Portfolio with animated UX, responsive layout. Serverless hosting on AWS.",
     "image": "../images/projectlist/j4cks.png",
-    "techs": "azure",
+    "techs": [{"../images/gallery/azure.png"}],
     "href" : "https://www.j4cks.com"
   },
   {
     "title": "Fight The Ban",
     "copy": "Custom progressive web app authored in GatsbyJS, hosted on Netlify CDN.",
     "image": "../images/projectlist/fighttheban.png",
-    "techs": "azure",
+    "techs": [{"../images/gallery/azure.png"}],
     "href" : "https://www.fighttheban.org"
   },
   {
     "title": "Minority Veterans of America",
     "copy": "Migration of a nonprofit's WordPress to managed AWS hosting.",
     "image": "../images/projectlist/mvalightsail.png",
-    "techs": "azure",
+    "techs": [{"../images/gallery/azure.png"}],
     "href" : "http://minorityvets.org/"
   },
   {
     "title": "Storefront Demo for API",
     "copy": "jQuery + dotNET project, sorts and searches inventory of client's API; on Azure.",
     "image": "../images/projectlist/ommposdemo.png",
-    "techs": "azure",
+    "techs": [{"../images/gallery/azure.png"}],
     "href" : "https://jacksstorefrontdemo.azurewebsites.net/Home/Products"
   },
   {
     "title": "StardewDex",
     "copy": "Info resource with noSQL data layer, serverless hosting on S3/Cloudfront",
     "image": "../images/projectlist/stardewdex.png",
-    "techs": "azure",
+    "techs": [{"../images/gallery/azure.png"}],
     "href" : "https://www.stardewdex.com"
   }]
 }
