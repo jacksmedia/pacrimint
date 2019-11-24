@@ -15,10 +15,10 @@ const Index = ({ data }) => (
       </Title>
     </Box>
     <Gallery items={data.homeJson.gallery} />
-    <div style={{ height: '30vh' }} />
+    <div style={{ height: '20vh' }} />
     <Box>
       <Title as="h2" size="small">
-        Work Examples
+        Recent Projects
       </Title>
     </Box>
     <ProjectList projects={data.homeJson.projects} />

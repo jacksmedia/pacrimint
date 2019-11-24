@@ -10,13 +10,13 @@
   },
   {
     "title": "Managed Cloud Services",
-    "copy": "Web-scale performance that bills precisely, leveraging the bleeding-edge cloud tech of AWS and Netlify. Running a WordPress instance on serverless AWS can translate into a big reduction in ops cost.",
+    "copy": "We build with web-scale platforms like AWS and Azure, offering world-class uptime and performance. Running your custom app or WordPress instance on serverless AWS can translate into a big reduction in ops cost via these clouds' economies of scale.",
     "route": "aws",
     "image": "../images/gallery/two-and-a-halfth.jpg"
   },
   {
     "title": "Serverless Architecting",
-    "copy": "Rapid and modern application development with less backend woes frees up time to hone and refine the message.",
+    "copy": "Rapid and modern application development with less backend woes frees up time to hone and refine the message. Lighthouse and cross-browser testing help us optimize your page's load time on all devices.",
     "route": "lessworkmoreplay",
     "image": "../images/gallery/washington-park.jpg"
   }],
