@@ -2,9 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import IO from 'components/io';
 import Img from 'gatsby-image';
+import TechList from '../../techlist';
 import { Container, Title, Copy, LinkEmphasis } from './project.css';
 
-const Project = ({ title, copy, image, href }) => (
+const Project = ({ title, copy, image, techs, href }) => (
   <IO rootMargin="-50px">
     {({ isVisible }) => (
       <Container isVisible={isVisible}>
@@ -12,6 +13,7 @@ const Project = ({ title, copy, image, href }) => (
         <figcaption>
           <Title>{title}</Title>
           <Copy>{copy}</Copy>
+            <TechList techs={techs} />
             <a href={href} target="_blank" rel="noopener noreferrer">
               { href.includes('https://www.j4cks.com') ? <LinkEmphasis>You Are Here</LinkEmphasis> : <LinkEmphasis>Visit Site</LinkEmphasis>}
             </a>
@@ -25,6 +27,7 @@ Project.propTypes = {
   title: PropTypes.string.isRequired,
   copy: PropTypes.string.isRequired,
   image: PropTypes.object.isRequired,
+  techs: PropTypes.object.isRequired,
   href: PropTypes.string.isRequired,
 };
 

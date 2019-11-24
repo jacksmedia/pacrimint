@@ -3,51 +3,56 @@
   "content": "intro.md",
   "pwacontent": "pwas.md",
   "gallery": [{
-    "title": "Progressive Web Apps",
-    "copy": "PWAs connect elements of both mobile and desktop user experience, making websites feel like apps. Your site can look great at any screen size, and can download to any device. We employ responsive design and other key PWA principles to make your brand truly cross-platform.",
-    "route": "pwas",
-    "image": "../images/gallery/burnside-bridge.jpg"
-  },
-  {
-    "title": "Managed Cloud Services",
-    "copy": "We build with web-scale platforms like AWS and Azure, offering world-class uptime and performance. Running your custom app or WordPress instance on serverless AWS can translate into a big reduction in ops cost via these clouds' economies of scale.",
-    "route": "aws",
-    "image": "../images/gallery/two-and-a-halfth.jpg"
-  },
-  {
-    "title": "Serverless Architecting",
-    "copy": "Rapid and modern application development with less backend woes frees up time to hone and refine the message. Lighthouse and cross-browser testing help us optimize your page's load time on all devices.",
-    "route": "lessworkmoreplay",
-    "image": "../images/gallery/washington-park.jpg"
+      "title": "Progressive Web Apps",
+      "copy": "PWAs connect elements of both mobile and desktop user experience, making websites feel like apps. Your site can look great at any screen size, and can download to any device. We employ responsive design and other key PWA principles to make your brand truly cross-platform.",
+      "route": "pwas",
+      "image": "../images/gallery/burnside-bridge.jpg"
+    },
+    {
+      "title": "Managed Cloud Services",
+      "copy": "We build with web-scale platforms like AWS and Azure, offering world-class uptime and performance. Running your custom app or WordPress instance on serverless AWS can translate into a big reduction in ops cost via these clouds' economies of scale.",
+      "route": "aws",
+      "image": "../images/gallery/two-and-a-halfth.jpg"
+    },
+    {
+      "title": "Serverless Architecting",
+      "copy": "Rapid and modern application development with less backend woes frees up time to hone and refine the message. Lighthouse and cross-browser testing help us optimize your page's load time on all devices.",
+      "route": "lessworkmoreplay",
+      "image": "../images/gallery/washington-park.jpg"
   }],
   "projects": [{
     "title": "Jacks Consulting",
-    "copy": "Portfolio with animations, responsive layout. Serverless hosting on AWS.",
+    "copy": "Portfolio with animated UX, responsive layout. Serverless hosting on AWS.",
     "image": "../images/projectlist/j4cks.png",
+    "techs": "azure",
     "href" : "https://www.j4cks.com"
   },
   {
     "title": "Fight The Ban",
     "copy": "Custom progressive web app authored in GatsbyJS, hosted on Netlify CDN.",
     "image": "../images/projectlist/fighttheban.png",
+    "techs": "azure",
     "href" : "https://www.fighttheban.org"
   },
   {
     "title": "Minority Veterans of America",
     "copy": "Migration of a nonprofit's WordPress to managed AWS hosting.",
     "image": "../images/projectlist/mvalightsail.png",
+    "techs": "azure",
     "href" : "http://minorityvets.org/"
   },
   {
     "title": "Storefront Demo for API",
     "copy": "jQuery + dotNET project, sorts and searches inventory of client's API; on Azure.",
     "image": "../images/projectlist/ommposdemo.png",
+    "techs": "azure",
     "href" : "https://jacksstorefrontdemo.azurewebsites.net/Home/Products"
   },
   {
     "title": "StardewDex",
     "copy": "Info resource with noSQL data layer, serverless hosting on S3/Cloudfront",
     "image": "../images/projectlist/stardewdex.png",
+    "techs": "azure",
     "href" : "https://www.stardewdex.com"
   }]
 }
