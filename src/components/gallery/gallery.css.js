@@ -7,6 +7,7 @@ export const Container = styled.div`
   grid-gap: 4rem;
   padding: 0 4rem;
   margin: 2rem 0;
+  line-height: 4vh;
 
   ${MEDIA.TABLET`
     display: block;

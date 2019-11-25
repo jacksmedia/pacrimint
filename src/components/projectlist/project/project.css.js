@@ -10,7 +10,6 @@ export const Container = styled.div`
   text-align: center;
   color: #fff;
   transition: background-color 2.5s ease;
-
   background-color: ${({ isVisible }) => (isVisible ? accent : ' #3a6')};
 `;
 

@@ -63,7 +63,13 @@ export const query = graphql`
             }
           }
         }
-        techs
+        cloud {
+          childImageSharp {
+            fluid(maxHeight: 195, quality: 90) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
         href
       }
     }

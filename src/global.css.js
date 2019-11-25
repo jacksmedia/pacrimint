@@ -107,7 +107,10 @@ export default createGlobalStyle`
   .row-spillover {
     flex-flow: row wrap;
   }
-
+  .padded-icon {
+    width: 20vw;
+    background-color: red;
+  }
   .coled {
     display: flex;
     flex-flow: column nowrap;
