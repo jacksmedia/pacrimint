@@ -1,7 +1,6 @@
-Resume headliner:
-## AWS Certified Solutions Architect, Progressive Web App Developer.
-## Deep expertise in JS & CSS.
-## Data and Voice infrastructure background; proficient with cloud & serverless.
+## AWS Certified Solutions Architect, proficient w/ S3, EC2, CloudFront, etc.
+## Progressive Web App Developer, deep expertise in JS & CSS
+## Military Data and Voice network maintenance background.
 ------
 
 # Some technologies I've worked with:
