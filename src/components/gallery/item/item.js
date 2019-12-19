@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 import { Title, Copy } from './item.css';
 
-const Item = ({ title, copy, route, image }) => (
+const Item = ({ title, copy, image }) => (
   <figure>
     <Img fluid={image ? image.childImageSharp.fluid : {}} alt={title} />
     <figcaption>
@@ -16,7 +16,6 @@ const Item = ({ title, copy, route, image }) => (
 Item.propTypes = {
   title: PropTypes.string,
   copy: PropTypes.string,
-  route: PropTypes.string,
   image: PropTypes.object.isRequired,
 };
 

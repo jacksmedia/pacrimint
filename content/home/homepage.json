@@ -42,13 +42,6 @@
     "href" : "http://minorityvets.org/"
   },
   {
-    "title": "Storefront Demo for API",
-    "copy": "jQuery + dotNET project, sorts and searches inventory of client's API; on Azure.",
-    "image": "../images/projectlist/ommposdemo.png",
-    "cloud": "../images/gallery/azure.png",
-    "href" : "https://jacksstorefrontdemo.azurewebsites.net/Home/Products"
-  },
-  {
     "title": "StardewDex",
     "copy": "Info resource with noSQL data layer, serverless hosting on S3/Cloudfront",
     "image": "../images/projectlist/stardewdex.png",
