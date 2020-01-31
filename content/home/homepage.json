@@ -3,49 +3,51 @@
   "content": "intro.md",
   "pwacontent": "pwas.md",
   "gallery": [{
-      "title": "Progressive Web Apps",
-      "copy": "PWAs connect elements of both mobile and desktop user experience, making websites feel like apps. Your site can look great at any screen size, and can download to any device. We employ responsive design and other key PWA principles to make your brand truly cross-platform.",
+      "title": "Progressive Web Apps-- websites that you download",
+      "copy": "PWAs connect elements of both mobile and desktop user experience, making websites feel like apps. Your site can look great at any screen size, and can download to any device. We use responsive design and cross-browser testing, and optimize your page's load time on all devices in order to make your brand truly cross-platform.",
       "route": "pwas",
       "image": "../images/gallery/burnside-bridge.jpg"
     },
     {
       "title": "Managed Cloud Services",
-      "copy": "We build with web-scale platforms like AWS and Azure, offering world-class uptime and performance. Running your custom app or WordPress instance on serverless AWS can translate into a big reduction in ops cost via these clouds' economies of scale.",
+      "copy": "We build with web-scale services like Netlify and AWS Cloudfront, offering world-class uptime, security and performance. Running your custom app or WordPress instance in AWS LightSail can translate into a big reduction in ops cost.",
       "route": "aws",
       "image": "../images/gallery/two-and-a-halfth.jpg"
     },
     {
-      "title": "Serverless Architecting",
-      "copy": "Rapid and modern application development with less backend woes frees up time to hone and refine the message. Lighthouse and cross-browser testing help us optimize your page's load time on all devices.",
+      "title": "Business Technology Consulting",
+      "copy": "We provide on-site support for a variety of platforms, environments and operating systems. Reach out to learn more.",
       "route": "lessworkmoreplay",
       "image": "../images/gallery/washington-park.jpg"
   }],
-  "projects": [{
-    "title": "Jacks Consulting",
-    "copy": "Portfolio with animated UX, responsive layout. Serverless hosting on AWS.",
-    "image": "../images/projectlist/j4cks.png",
-    "cloud": "../images/gallery/aws.png",
-    "href" : "https://www.j4cks.com"
-  },
-  {
-    "title": "Fight The Ban",
-    "copy": "Custom progressive web app authored in GatsbyJS, hosted on Netlify CDN.",
-    "image": "../images/projectlist/fighttheban.png",
-    "cloud": "../images/gallery/aws.png",
-    "href" : "https://www.fighttheban.org"
-  },
-  {
-    "title": "Minority Veterans of America",
-    "copy": "Migration of a nonprofit's WordPress to managed AWS hosting.",
-    "image": "../images/projectlist/mvalightsail.png",
-    "cloud": "../images/gallery/aws.png",
-    "href" : "http://minorityvets.org/"
-  },
-  {
-    "title": "StardewDex",
-    "copy": "Info resource with noSQL data layer, serverless hosting on S3/Cloudfront",
-    "image": "../images/projectlist/stardewdex.png",
-    "cloud": "../images/gallery/aws.png",
-    "href" : "https://www.stardewdex.com"
-  }]
+  "projects": [
+    {
+      "title": "StardewDex",
+      "copy": "Info resource with noSQL data layer, static site hosted on AWS S3/Cloudfront. Google AdSense.",
+      "image": "../images/projectlist/stardewdex.png",
+      "cloud": "../images/gallery/aws.png",
+      "href" : "https://www.stardewdex.com"
+    },
+    {
+      "title": "Beespoke Honey",
+      "copy": "Shopping cart demo running serverless. Client can control inventory via a CMS.",
+      "image": "../images/projectlist/beespoke-preview.png",
+      "cloud": "../images/gallery/aws.png",
+      "href" : "https://beespoke-3546535656.gtsb.io/#!/"
+    },
+    {
+      "title": "MVA Emerging Leader Retreat",
+      "copy": "Fully responsive progressive web app authored in GatsbyJS.",
+      "image": "../images/projectlist/elr-preview.png",
+      "cloud": "../images/gallery/aws.png",
+      "href" : "https://mvaelr.netlify.com/"
+    },
+    {
+      "title": "Minority Veterans of America homepage",
+      "copy": "Migration of a nonprofit's WordPress to managed AWS hosting.",
+      "image": "../images/projectlist/mvalightsail.png",
+      "cloud": "../images/gallery/aws.png",
+      "href" : "http://minorityvets.org/"
+    }
+  ]
 }
