@@ -9,7 +9,7 @@ const Nav = () => (
         <Link to="/about">Learn More</Link>
       </li>
       <li>
-        <a href="https://bux4jax.s3.amazonaws.com/_resume_Alexander_Jacks.pdf">Resume</a>
+        <a href="https://whereby.com/j4cks">Meet</a>
       </li>
     </ul>
   </Container>
