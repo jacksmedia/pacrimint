@@ -6,29 +6,29 @@ import Box from 'components/box';
 import Head from 'components/head';
 import Notebook from 'components/notebook';
 
-const Devnotes = ({ data }) => (
+const Meet = ({ data }) => (
   <Layout>
     <Box>
-      <Head pageTitle={data.devnotesJson.title} />
+      <Head pageTitle={data.meetJson.title} />
       <div
         dangerouslySetInnerHTML={{
-          __html: data.devnotesJson.content.childMarkdownRemark.html,
+          __html: data.meetJson.content.childMarkdownRemark.html,
         }}
       />
-      <Notebook notes={data.devnotesJson.notes} />
+      <Notebook notes={data.meetJson.notes} />
     </Box>
   </Layout>
 );
 
-Devnotes.propTypes = {
+Meet.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export default Devnotes;
+export default Meet;
 
 export const query = graphql`
-  query DevnotesQuery {
-    devnotesJson {
+  query MeetQuery {
+    meetJson {
       title
       content {
         childMarkdownRemark {

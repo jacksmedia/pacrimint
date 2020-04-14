@@ -17,7 +17,7 @@
 ## I'm also interested in building a progressive web app for your small business or nonprofit, so drop me a line if you have a custom project, need a WordPress site migrated or rebuilt entirely into a modern web app, or &c...
 
 -[LinkedIn](https://linkedin.com/in/alexander-jacks/)
--[Gmail](mailto:alexanderthejacks@gmail.com)
+-[Gmail](mailto:alex@j4cks.com)
 -[Instagram](https://www.instagram.com/__j4cks__/)
 
 Find this project repository [on GitHub](https://github.com/alexanderjacks/j4cks_v1).

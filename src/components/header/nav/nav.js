@@ -9,7 +9,7 @@ const Nav = () => (
         <Link to="/about">Learn More</Link>
       </li>
       <li>
-        <a href="https://whereby.com/j4cks">Meet</a>
+        <Link to="/meet">Meet</Link>
       </li>
     </ul>
   </Container>
