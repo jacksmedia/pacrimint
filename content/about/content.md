@@ -1,5 +1,5 @@
 ## AWS Certified Solutions Architect, proficient w/ S3, EC2, CloudFront, etc.
-## Progressive Web App Developer, deep expertise in JS & CSS
+## Progressive Web App Developer, deep expertise in JS & CSS.
 ## Military Data and Voice network maintenance background.
 ------
 
@@ -11,13 +11,15 @@
 
 ------
 
+## Your brand or your small business / nonprofit needs a progressive web app! Drop me a line if you'd like to discuss how a PWA can help your mission.
 
-## Please reach out at the links below. I'm looking for a fulltime opportunity in the Portland area or remotely.
+## Do you have a custom content fix project, need a WordPress site migrated or rebuilt entirely into a modern web app, or just a style overhaul?
 
-## I'm also interested in building a progressive web app for your small business or nonprofit, so drop me a line if you have a custom project, need a WordPress site migrated or rebuilt entirely into a modern web app, or &c...
+# Please reach out at the links below.
 
--[LinkedIn](https://linkedin.com/in/alexander-jacks/)
--[Gmail](mailto:alex@j4cks.com)
--[Instagram](https://www.instagram.com/__j4cks__/)
+- [resumé](https://bux4jax.s3.amazonaws.com/_resume_Alexander_Jacks.pdf)
+- [LinkedIn](https://linkedin.com/in/alexander-jacks/)
+- [Gmail](mailto:alex@j4cks.com)
+- [Instagram](https://www.instagram.com/__j4cks__/)
 
-Find this project repository [on GitHub](https://github.com/alexanderjacks/j4cks_v1).
+Find [this project repository on GitHub](https://github.com/alexanderjacks/j4cks_v1).
