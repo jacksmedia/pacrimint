@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 import { accent } from 'constants/theme';
 
-import 'typeface-arvo';
+import 'typeface-cinzel-decorative';
 
 export default createGlobalStyle`
   html, body, div, span, applet, object, iframe,
@@ -23,7 +23,7 @@ export default createGlobalStyle`
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    font-family: 'Arvo', sans-serif;
+    font-family: 'Cinzel Decorative', sans-serif;
   }
 
   /* HTML5 display-role reset for older browsers */
@@ -40,7 +40,7 @@ export default createGlobalStyle`
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
     line-height: 1;
     font-size: 1.6rem;
-    color: #000;
+    color: #1D0200;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -147,10 +147,10 @@ export default createGlobalStyle`
     padding: 1.8rem 3.5rem;
     font-size: 22px;
     max-width: 180px;
-    background: #036;
+    background: #4C9084;
     text-align: center;
-    color: lime;
-    border: black dotted 0px;
+    color: whitesmoke;
+    border: #1D0200 solid 2px;
     border-radius: 2.5rem;
   }
 
