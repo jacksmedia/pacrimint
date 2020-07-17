@@ -29,11 +29,11 @@
       "href" : "https://www.stardewdex.com"
     },
     {
-      "title": "Beespoke Honey",
-      "copy": "Shopping cart demo running serverless. Client can control inventory via a CMS.",
-      "image": "../images/projectlist/beespoke-preview.png",
+      "title": "We Will Get Destroyed",
+      "copy": "Directory of US Congress races, with outlinks to Democratic candidates",
+      "image": "../images/gallery/wewillgetdestroyed.png",
       "cloud": "../images/gallery/aws.png",
-      "href" : "https://beespoke-3546535656.gtsb.io/#!/"
+      "href" : "https://wewillgetdestroyed.com/"
     },
     {
       "title": "MVA Emerging Leader Retreat",

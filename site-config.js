@@ -5,8 +5,8 @@ module.exports = {
   siteTitleShort: `J4cks`,
   siteDescription: `Serverless Websites & Cloud Architecting`,
   siteUrl: `https://j4cks.com`,
-  themeColor: `#050`,
-  backgroundColor: `#00f`,
+  themeColor: `#4C9084`,
+  backgroundColor: `#1D0200`,
   pathPrefix: null,
   logo: path.resolve(__dirname, 'src/images/icon.png'),
   social: {
