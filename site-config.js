@@ -3,10 +3,10 @@ const path = require('path');
 module.exports = {
   siteTitle: `Jacks Consulting`,
   siteTitleShort: `J4cks`,
-  siteDescription: `Serverless Websites & Cloud Architecting`,
+  siteDescription: `Small Business Tech Consulting`,
   siteUrl: `https://j4cks.com`,
   themeColor: `#4C9084`,
-  backgroundColor: `#1D0200`,
+  backgroundColor: `#4C9084`,
   pathPrefix: null,
   logo: path.resolve(__dirname, 'src/images/icon.png'),
   social: {

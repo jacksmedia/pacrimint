@@ -21,7 +21,7 @@ export const LinkEmphasis = styled.span`
   text-decoration: none;
 `;
 
-export const Title = styled.span`
+export const Title = styled.h3`
   display: block;
   font-size: 2rem;
   font-weight: 500;

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import MEDIA from 'helpers/mediaTemplates';
 
-export const Title = styled.span`
+export const Title = styled.h3`
   display: block;
   font-size: 2rem;
   font-weight: 500;
@@ -9,7 +9,6 @@ export const Title = styled.span`
 `;
 
 export const Copy = styled.p`
-  color: #757575;
   margin: 0 2rem 2rem;
 
   ${MEDIA.TABLET`
