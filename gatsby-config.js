@@ -9,8 +9,17 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
     `gatsby-transformer-json`,
-    `gatsby-transformer-remark`,
     `gatsby-plugin-eslint`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-phoneno-emailid-link`,
+          }
+        ],
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

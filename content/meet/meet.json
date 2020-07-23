@@ -1,19 +1,19 @@
 {
-  "title": "Meet",
+  "title": "Let's Meet",
   "content": "content.md",
   "notes": [{
     "title": "Progressive Web Apps",
-    "copy": "Bridging mobile and desktop with responsive UX",
+    "copy": "Bridging the mobile and website user experience",
     "image": "../images/gallery/burnside-bridge.jpg"
   },
   {
     "title": "Managed Cloud Services",
-    "copy": "Web-scale performance that bills precisely",
+    "copy": "Web scale performance and rapid content updates",
     "image": "../images/gallery/two-and-a-halfth.jpg"
   },
   {
-    "title": "Serverless Architecting",
-    "copy": "Rapid and modern application development",
+    "title": "Ease of Use",
+    "copy": "Clients can update their own app with a CMS",
     "image": "../images/gallery/washington-park.jpg"
   }]
 }

@@ -28,6 +28,8 @@ export const query = graphql`
   query AboutQuery {
     aboutJson {
       title
+      button
+      email
       content {
         childMarkdownRemark {
           html

@@ -32,6 +32,20 @@ export default createGlobalStyle`
     line-height: 150%;
     font-weight: 600;
   } 
+  h1 > a {
+    font-family: 'Cinzel Decorative', serif;
+    line-height: 150%;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #4C9084;
+    color: #1D0200;
+    padding: 2rem;
+    display: block;
+    border-radius: 2rem;
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 25vh;
+  } 
   /* HTML5 display-role reset for older browsers */
   article, aside, details, figcaption, figure,
   footer, header, hgroup, menu, nav, section {

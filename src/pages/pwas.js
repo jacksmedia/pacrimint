@@ -12,7 +12,7 @@ const Pwas = ({ data }) => (
       </Title>
     <Box>
       <Title as="h1" size="small">
-        Yes, they still live on your Home screen, as icons.
+        They live on your Home screen as icons.
       </Title>
     </Box>
     <div style={{ height: '30vh' }} />

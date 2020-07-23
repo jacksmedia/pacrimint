@@ -10,6 +10,7 @@ export const Title = styled.h3`
 
 export const Copy = styled.p`
   margin: 0 2rem 2rem;
+  line-height: 2.8rem;
 
   ${MEDIA.TABLET`
     margin-bottom: 4rem;

@@ -1,5 +1,5 @@
 # Let's Meet w Whereby
 
-It's GDPR compliant with your privacy & there's no download!
+It's GDPR compliant with your privacy & there's no download on laptops!
 
-- [~ J O I N   M E E T I N G ~](https://whereby.com/j4cks)
+# [JOIN MEETING](https://whereby.com/j4cks)
