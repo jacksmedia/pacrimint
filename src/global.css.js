@@ -25,9 +25,12 @@ export default createGlobalStyle`
     font: inherit;
     vertical-align: baseline;
     font-family: 'Raleway', sans-serif;
+    line-height: 125%;
   }
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Cinzel Decorative', serif;
+    line-height: 150%;
+    font-weight: 600;
   } 
   /* HTML5 display-role reset for older browsers */
   article, aside, details, figcaption, figure,

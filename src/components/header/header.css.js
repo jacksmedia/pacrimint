@@ -13,7 +13,7 @@ export const Container = styled.header`
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
-  line-height: 6vh;
+  line-height: 3vh;
   a {
     color: blue;
     transition: color 0.4s ease;

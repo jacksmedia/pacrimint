@@ -8,7 +8,7 @@ export const Text = styled.span`
       case 'large':
         return '400';
       default:
-        return '500';
+        return '600';
     }
   }};
   font-size: ${({ size }) => () => {
@@ -19,7 +19,6 @@ export const Text = styled.span`
         return '2rem';
     }
   }};
-  line-height: 1.2;
 
   ${MEDIA.TABLET`
     font-size: ${({ size }) => () => {
