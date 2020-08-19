@@ -21,13 +21,16 @@ const AnimatedContainer = posed.div({
   },
 });
 
-const Footer = ({ title }) => (
+const Footer = () => (
   <AnimatedContainer>
     <Container>
       <Link to="/">
-        <Title as="h1" class="dollarbill">J. C., MMXX</Title>
-      </Link><br/>
-        <p>All content Alexander Jacks</p>
+        <Title as="h1" class="dollarbill">
+          J. C., MMXX
+        </Title>
+      </Link>
+      <br />
+      <p>All content Alexander Jacks</p>
     </Container>
   </AnimatedContainer>
 );

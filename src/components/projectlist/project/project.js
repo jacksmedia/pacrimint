@@ -4,7 +4,7 @@ import IO from 'components/io';
 import Img from 'gatsby-image';
 import { Container, Title, Copy, LinkEmphasis } from './project.css';
 
-const Project = ({ title, copy, image, cloud, href }) => (
+const Project = ({ title, copy, image, href }) => (
   <IO rootMargin="-50px">
     {({ isVisible }) => (
       <Container isVisible={isVisible}>
@@ -12,9 +12,16 @@ const Project = ({ title, copy, image, cloud, href }) => (
         <figcaption>
           <Title>{title}</Title>
           <Copy>{copy}</Copy>
-            <a href={href} target="_blank" rel="noopener noreferrer">
-              { href.includes('https://www.j4cks.com') ? <LinkEmphasis>You Are Here</LinkEmphasis> : <LinkEmphasis>Visit Site</LinkEmphasis>}
-            </a>
+          <a href={href} target="_blank" rel="noopener noreferrer">
+            { href.includes('https://www.j4cks.com') ? 
+              (
+              <LinkEmphasis>You Are Here</LinkEmphasis>
+              ) : 
+              (
+              <LinkEmphasis>Visit Site</LinkEmphasis>
+              )
+            }
+          </a>
         </figcaption>
       </Container>
     )}

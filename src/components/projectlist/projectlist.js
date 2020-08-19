@@ -8,11 +8,11 @@ import Project from 'components/projectlist/project';
 // every time we scroll back up. Use `hasBeenVisible` to keep the styles
 // after scrolling back up and down again.
 const ProjectList = ({ projects }) => (
-	<div>
-		{projects.map((project, i) => (
-			<Project {...project} key={i} />
-		))}
-	</div>
+  <div>
+    {projects.map((project, i) => (
+      <Project {...project} key={i} />
+    ))}
+  </div>
 );
 
 ProjectList.propTypes = {

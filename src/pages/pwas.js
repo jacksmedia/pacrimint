@@ -7,9 +7,9 @@ import { graphql } from 'gatsby';
 
 const Pwas = ({ data }) => (
   <Layout>
-      <Title as="h2" size="small">
-        {data.homeJson.pwacontent.childMarkdownRemark.rawMarkdownBody}
-      </Title>
+    <Title as="h2" size="small">
+      {data.homeJson.pwacontent.childMarkdownRemark.rawMarkdownBody}
+    </Title>
     <Box>
       <Title as="h1" size="small">
         They live on your Home screen as icons.
