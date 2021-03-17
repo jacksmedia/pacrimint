@@ -4,40 +4,40 @@
   "pwacontent": "pwas.md",
   "gallery": [{
       "title": "Progressive Web Apps-- websites that you download",
-      "copy": "PWAs connect elements of both mobile and desktop user experience, making websites feel like apps. Your site can look great at any screen size, and can download to any device. We use responsive design and cross-browser testing, and optimize your page's load time on all devices in order to make your brand truly cross-platform.",
+      "copy": "PWAs connect elements of both mobile and desktop user experience, making websites feel like apps. Your business homepage will look great on any screen size, and can download to any device! We use responsive design and cross-browser testing, and optimize your page's load time on all devices in order to make your brand truly cross-platform.",
       "route": "pwas",
       "image": "../images/gallery/burnside-bridge.jpg"
     },
     {
       "title": "Managed Cloud Services",
-      "copy": "We build with web-scale services like Netlify and AWS Cloudfront, offering world-class uptime, security and performance. Running your custom app or WordPress instance in AWS LightSail can translate into a big reduction in ops cost.",
+      "copy": "We build with web-scale services like Netlify and AWS Cloudfront, offering world-class uptime, security and performance. Running your app with a serverless paradigm, or services like in AWS LightSail, can translate into a big reduction in ops cost.",
       "route": "aws",
       "image": "../images/gallery/two-and-a-halfth.jpg"
     },
     {
       "title": "Business Technology Consulting",
-      "copy": "We can help with small business tech integrations. Do you need to tweak your Squarespace layout, or add a PayPal button to an existing site? Domain, hosting, SSL, storage, archival issues and more-- reach out to learn how we've helped folks like you.",
+      "copy": "We can help with small business tech integrations and existing websites. Do you need to add a Shopify service to your WordPress page? CMS, DNS, domains & hosting: we handle it all for small businesses-- reach out to learn how we've helped folks like you.",
       "route": "lessworkmoreplay",
       "image": "../images/gallery/washington-park.jpg"
   }],
   "projects": [
     {
+      "title": "Top 100 Crypto",
+      "copy": "Live cryptocurrency prices via serverless API integration. Membership tier for adfree, enhanced service.",
+      "image": "../images/projectlist/wewillgetdestroyed.png",
+      "cloud": "../images/gallery/aws.png",
+      "href" : "https://top100crypto.info/"
+    },
+    {
       "title": "StardewDex",
-      "copy": "Info resource with noSQL data layer, static site hosted on AWS S3/Cloudfront. Google AdSense.",
+      "copy": "Installable index app with noSQL data layer, searchable inventory. Static hosting on AWS S3/Cloudfront. Features Google AdSense.",
       "image": "../images/projectlist/stardewdex.png",
       "cloud": "../images/gallery/aws.png",
       "href" : "https://www.stardewdex.com"
     },
     {
-      "title": "We Will Get Destroyed",
-      "copy": "Directory of US Congress races, with outlinks to Democratic candidates",
-      "image": "../images/projectlist/wewillgetdestroyed.png",
-      "cloud": "../images/gallery/aws.png",
-      "href" : "https://wewillgetdestroyed.com/"
-    },
-    {
       "title": "MVA Emerging Leader Retreat",
-      "copy": "Fully responsive progressive web app authored in GatsbyJS.",
+      "copy": "Responsive website authored with GatsbyJS.",
       "image": "../images/projectlist/elr-preview.png",
       "cloud": "../images/gallery/aws.png",
       "href" : "https://mvaelr.netlify.com/"
