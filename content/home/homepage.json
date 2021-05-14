@@ -23,8 +23,8 @@
   "projects": [
     {
       "title": "Top 100 Crypto",
-      "copy": "Live cryptocurrency prices via serverless API integration. Membership tier for adfree, enhanced service.",
-      "image": "../images/projectlist/wewillgetdestroyed.png",
+      "copy": "Live cryptocurrency prices via serverless API integration.",
+      "image": "../images/projectlist/top100crypto.png",
       "cloud": "../images/gallery/aws.png",
       "href" : "https://top100crypto.info/"
     },
