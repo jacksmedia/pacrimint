@@ -48,6 +48,13 @@
       "image": "../images/projectlist/mvalightsail.png",
       "cloud": "../images/gallery/aws.png",
       "href" : "http://minorityvets.org/"
+    },
+    {
+      "title": "How To Crypto (2018)",
+      "copy": "Material Design styling on a tutorial site (cc 2018).",
+      "image": "../images/projectlist/howtocrypto.png",
+      "cloud": "../images/gallery/aws.png",
+      "href" : "https://how-to-crypto.herokuapp.com/"
     }
   ]
 }
