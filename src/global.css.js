@@ -1,8 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
 import { accent } from 'constants/theme';
 
-import 'typeface-cinzel-decorative';
-import 'typeface-raleway';
+import "typeface-montserrat";
+import "typeface-balthazar";
 
 export default createGlobalStyle`
   html, body, div, span, applet, object, iframe,
@@ -24,21 +24,21 @@ export default createGlobalStyle`
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 125%;
   }
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Cinzel Decorative', serif;
+    font-family: 'Balthazar', serif;
     line-height: 150%;
     font-weight: 600;
   } 
   h1 > a {
-    font-family: 'Cinzel Decorative', serif;
+    font-family: 'Balthazar', serif;
     line-height: 150%;
     font-weight: 400;
     text-decoration: none;
-    background-color: #4C9084;
-    color: #1D0200;
+    background-color: #0500FF;
+    color: #FFFFFF;
     padding: 2rem;
     display: block;
     border-radius: 2rem;
@@ -60,7 +60,7 @@ export default createGlobalStyle`
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
     line-height: 1;
     font-size: 1.6rem;
-    color: #1D0200;
+    color: #DD3C00;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -90,7 +90,7 @@ export default createGlobalStyle`
   }
 
   a {
-    color: red;
+    color: blue;
   }
 
   pre {
@@ -132,7 +132,7 @@ export default createGlobalStyle`
   }
   .padded-icon {
     width: 20vw;
-    background-color: red;
+    background-color: blue;
   }
   .coled {
     display: flex;
@@ -160,17 +160,17 @@ export default createGlobalStyle`
   }
 
   Container a {
-    color: red;
+    color: blue;
   }
 
   button {
     padding: 1.8rem 3.5rem;
     font-size: 22px;
     max-width: 180px;
-    background: #4C9084;
+    background: #DD3C00;
     text-align: center;
     color: whitesmoke;
-    border: #1D0200 solid 2px;
+    border: #BB1C00 solid 2px;
     border-radius: 2.5rem;
   }
 

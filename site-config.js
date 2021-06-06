@@ -1,12 +1,12 @@
 const path = require('path');
 
 module.exports = {
-  siteTitle: `Jacks Consulting`,
-  siteTitleShort: `J4cks`,
-  siteDescription: `Jacks Tech Consulting`,
-  siteUrl: `https://j4cks.com`,
-  themeColor: `#4c9084`,
-  backgroundColor: `#4c9084`,
+  siteTitle: `Jacks Media`,
+  siteTitleShort: `JacksMedia`,
+  siteDescription: `Jacks Media`,
+  siteUrl: `https://jacks.media`,
+  themeColor: `#DD3C00`,
+  backgroundColor: `#0500FF`,
   pathPrefix: null,
   logo: path.resolve(__dirname, 'src/images/icon.png'),
   social: {
