@@ -1,4 +1,4 @@
-# June 2021 Media HQ Site
+# June 2021 <a href="https://jacks.media">Jacks.Media</a> HQ Site
 
 <p align="center">
   <a href="https://github.com/fabe/gatsby-universal">
