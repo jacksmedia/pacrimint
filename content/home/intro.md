@@ -1,1 +1,1 @@
-Salutations, you've reached Jacks Media. We specialize in hybrid websites that work like mobile apps: PWAs. We can help you build an app, if you are willing to learn a few new software development techniques. You can hire us to build you app, if that's more convenient or appealing than doing it yourself.
+Salutations, you've reached Jacks Media. We specialize in hybrid websites that work like mobile apps: PWAs. Explore this site to learn more about the PWA revolution and why it makes sense to hire us to build you one.
