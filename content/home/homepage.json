@@ -3,22 +3,28 @@
   "content": "intro.md",
   "pwacontent": "pwas.md",
   "gallery": [{
-      "title": "Progressive Web Apps-- websites that you download",
-      "copy": "PWAs connect elements of both mobile and desktop user experience, making websites feel like apps. Your business homepage will look great on any screen size, and can download to any device! We use responsive design and cross-browser testing, and optimize your page's load time on all devices in order to make your brand truly cross-platform.",
+      "title": "Websites that Download",
+      "copy": "Progressive Web Apps are desktop installable, yet also optimized for mobile. Your business homepage will look great on any screen size, and can download to any device!",
       "route": "pwas",
       "image": "../images/gallery/burnside-bridge.jpg"
     },
     {
-      "title": "Managed Cloud Services",
-      "copy": "We build with web-scale services like Netlify and AWS Cloudfront, offering world-class uptime, security and performance. Running your app with a serverless paradigm, or services like in AWS LightSail, can translate into a big reduction in ops cost.",
+      "title": "Offline Functionality",
+      "copy": "You can use many features of the app offline, because PWAs cache their essential content. Data is retrieved from the device storage, not the internet, so users can browse during low or no connection.",
       "route": "aws",
-      "image": "../images/gallery/two-and-a-halfth.jpg"
+      "image": "../images/gallery/washington-park.jpg"
     },
     {
-      "title": "Business Technology Consulting",
-      "copy": "We can help with small business tech integrations and existing websites. Do you need to add a Shopify service to your WordPress page? CMS, DNS, domains & hosting: we handle it all for small businesses-- reach out to learn how we've helped folks like you.",
+      "title": "Push your Brand",
+      "copy": "The PWA architecture can send push notifications when new content becomes available, just like a mobile app. Users will see a prompt for a quick refresh; this has been shown to drive engagement and conversions.",
+      "route": "aws",
+      "image": "../images/gallery/hammond.jpg"
+    },
+    {
+      "title": "Universal Design",
+      "copy": "We use responsive design and cross-browser testing, and optimize your page's load time on all devices in order to make your brand truly cross-platform. Upgrade your clients’ and users’ experience-- let us make your website work like an app.",
       "route": "lessworkmoreplay",
-      "image": "../images/gallery/washington-park.jpg"
+      "image": "../images/gallery/two-and-a-halfth.jpg"
   }],
   "projects": [
     {
