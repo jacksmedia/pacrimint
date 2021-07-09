@@ -28,6 +28,13 @@
   }],
   "projects": [
     {
+      "title": "Jacks Consulting LLC",
+      "copy": "Demo of our features; logistics adivce on navigating cryptocurrency",
+      "image": "../images/projectlist/jacksconsultingLLC.png",
+      "cloud": "../images/gallery/aws.png",
+      "href" : "https://j4cks.com/"
+    },
+    {
       "title": "Top 100 Crypto",
       "copy": "Live cryptocurrency prices via serverless API integration.",
       "image": "../images/projectlist/top100crypto.png",
@@ -54,13 +61,6 @@
       "image": "../images/projectlist/mvalightsail.png",
       "cloud": "../images/gallery/aws.png",
       "href" : "http://minorityvets.org/"
-    },
-    {
-      "title": "How To Crypto (2018)",
-      "copy": "Material Design styling on a tutorial site (cc 2018).",
-      "image": "../images/projectlist/howtocrypto.png",
-      "cloud": "../images/gallery/aws.png",
-      "href" : "https://how-to-crypto.herokuapp.com/"
     }
   ]
 }

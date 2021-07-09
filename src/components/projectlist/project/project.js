@@ -13,10 +13,7 @@ const Project = ({ title, copy, image, href }) => (
           <Title>{title}</Title>
           <Copy>{copy}</Copy>
           <a href={href} target="_blank" rel="noopener noreferrer">
-            {href.includes('https://www.j4cks.com') ? 
-              (<LinkEmphasis>You Are Here</LinkEmphasis>) : 
-              (<LinkEmphasis>Visit Site</LinkEmphasis>)
-            }
+            <LinkEmphasis>Launch Site from Here</LinkEmphasis>
           </a>
         </figcaption>
       </Container>

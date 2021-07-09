@@ -1,8 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
 import { accent } from 'constants/theme';
 
-import "typeface-montserrat";
-import "typeface-balthazar";
+import 'typeface-montserrat';
+import 'typeface-balthazar';
 
 export default createGlobalStyle`
   html, body, div, span, applet, object, iframe,
