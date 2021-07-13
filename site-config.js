@@ -1,10 +1,10 @@
 const path = require('path');
 
 module.exports = {
-  siteTitle: `Jacks Media`,
-  siteTitleShort: `JacksMedia`,
-  siteDescription: `Jacks Media`,
-  siteUrl: `https://jacks.media`,
+  siteTitle: `Pacific Rim International`,
+  siteTitleShort: `PacRimInt`,
+  siteDescription: `Pacific Rim International`,
+  siteUrl: `https://pacrimint.netlify.app`,
   themeColor: `#DD3C00`,
   backgroundColor: `#0500FF`,
   pathPrefix: null,
