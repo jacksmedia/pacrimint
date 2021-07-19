@@ -3,8 +3,12 @@ import { Link } from 'gatsby';
 import { Container } from './nav.css';
 
 const Nav = () => (
-  <Container className="meganav">
-    <ul>
+  <Container className="navver">
+    {/* hamburger btn */}
+    <input className="menu-btn" type="checkbox" id="menu-btn" />
+    <span className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></span>
+    {/* hamburger btn */}
+    <ul className="menu">
       <li><Link to="/commercial">Commercial</Link></li>
       <li><Link to="/commercialrental">Comm.Rental</Link></li>
       <li><Link to="/condos">Condos</Link></li>
